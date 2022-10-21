@@ -13,7 +13,7 @@
 
 
 
-
+var
 nome = caractere
 cpf = inteiro
 RG = inteiro
