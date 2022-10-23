@@ -4,10 +4,11 @@ algoritmo "cotidiano_de_um_restaurante"
 // Data : 23/10/2022
 // Seção de Declarações 
 
+
 var
 
 pessoas: inteiro
-fuman_anim: inteiro
+fuman_anim: inteiro  //famantes ou animais, qualquer opção dessas duas os joga para area externa, então juntei em uma var.
 
 inicio
 escreval("Escolha as opçoes.")
