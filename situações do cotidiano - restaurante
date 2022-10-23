@@ -26,11 +26,11 @@ leia(animais)
 escreva("Hà fumantes?")
 leia(fumantes)
 
-                //O "f" em animais e fuamantes representa o valor logico falso que nao hà fumantes e animais.
+                //O "f" em animais e fuamantes representa o valor logico falso que nao hà fumantes e animais, porem foram 6 pessoas.
 se (pessoas >=5, fumante = f, animais = f)
     escreva("Suas mesas estão no primeiro andar")
     
-senao                //Nesse caso digamos que hà fumante ou animail no grupo dessas pessoas.
+senao                //Nesse caso digamos que hà fumante ou animal no grupo dessas pessoas.
      se (pessoas >=5, fumante = v, animais = v)
         (escreva("Suas mesas estão na área externa")
         
