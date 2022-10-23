@@ -1,42 +1,32 @@
-//Entender situações do cotidiano… para tomada de decisão 
-//Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um
-//restaurante uma pessoa ou grupo de pessoas precisa ser alocada. O restaurante tem três áreas: térreo, 1ro andar, e área externa. 
-//Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa. Grupos de 5 ou mais precisam ser alocados no 1ro andar, 
-//pois não dá para juntar mesas no térreo. Qualquer outro grupo de pessoas pode ser alocado no térreo. 
-//SOLUÇÃO:
+algoritmo "cotidiano_de_um_restaurante"
+// Função : Direcionar clientes para devidas areas.
+// Autor : Edgar Brabo
+// Data : 23/10/2022
+// Seção de Declarações 
 
+var
 
-//terreo = de 1 a 4 pessoas nessa area, menos fumantes e com animais;
-//1º andar = A partir de 5 ou mais que nao sejam fumantes ou com animais;
-//area externa = fumantes, animais;
-
-
-Var
-pessoas = inteiro
-fumantes, animais = logico
+pessoas: inteiro
+fuman_anim: inteiro
 
 inicio
+escreval("Escolha as opçoes.")
 
-escreva("Quantas pessoas são?")
-leia(pessoas)
+escreva("Hà fumantes ou animais?: Digite (1) para sim ou (0) para Não.")
+leia(fuman_anim)
 
-ecreva("Voce tem animais?")
-leia(animais)
+se (fuman_anim = 1) entao
+  escreva("Suas mesas estão na area externa")
 
-escreva("Hà fumantes?")
-leia(fumantes)
+        senao
+         escreva("Quantas pessoas seriam?")
+         leia(pessoas)
+         
+             se (pessoas >=5) entao
+                escreva("Suas mesas estão no primeiro andar.")
+             
+                       senao
+                            escreva("Suas mesas estão no terreo.")
 
-                //O "f" em animais e fuamantes representa o valor logico falso que nao hà fumantes e animais, porem foram 6 pessoas.
-se (pessoas >=5, fumante = f, animais = f)
-    escreva("Suas mesas estão no primeiro andar")
-    
-senao                //Nesse caso digamos que hà fumante ou animal no grupo dessas pessoas.
-     se (pessoas >=5, fumante = v, animais = v)
-        (escreva("Suas mesas estão na área externa")
-        
-senao                // nessa ultima, digamos que houve  uma entrada de 3 pessoas, 0 fumantes e 0 animais.
-     se(pessoas >=5, fumante = f, animais = f)
-     escreva("A mesa de vocês se encotra no terreo")
-     fimse
-
-fimalgoritmo
+FIMSE
+FIMALGORITMO
