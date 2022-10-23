@@ -38,3 +38,5 @@ senao                // nessa ultima, digamos que houve  uma entrada de 3 pessoa
      se(pessoas >=5, fumante = f, animais = f)
      escreva("A mesa de vocês se encotra no terreo")
      fimse
+
+fimalgoritmo
