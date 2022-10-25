@@ -1,0 +1,33 @@
+algoritmo "cotidiano_de_um_restaurante"
+// Função : Direcionar clientes para devidas areas.
+// Autor : Edgar Brabo
+// Data : 23/10/2022
+// Seção de Declarações 
+
+
+var
+
+pessoas: inteiro
+fuman_anim: inteiro  //famantes ou animais, qualquer opção dessas duas os joga para area externa, então juntei em uma var.
+
+inicio
+escreval("Escolha as opçoes.")
+
+escreva("Hà fumantes ou animais?: Digite (1) para sim ou (0) para Não.")
+leia(fuman_anim)
+
+se (fuman_anim = 1) entao
+  escreva("Suas mesas estão na area externa")
+
+        senao
+         escreva("Quantas pessoas seriam?")
+         leia(pessoas)
+         
+             se (pessoas >=5) entao
+                escreva("Suas mesas estão no primeiro andar.")
+             
+                       senao
+                            escreva("Suas mesas estão no terreo.")
+
+FIMSE
+FIMALGORITMO
