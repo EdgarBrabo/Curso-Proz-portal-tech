@@ -1,0 +1,32 @@
+//Usar métodos de repetição… agilizar os processos
+//Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem. 
+//Por exemplo, se o nome da equipe é “Os Lutadores”, o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente.
+//Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+
+
+algoritmo "etiquetador e-sports"
+// Função : criar noms nas etiquetas dos participantes.
+// Autor :Edgar Brabo.
+// Data : 23/10/2022
+// Seção de Declarações 
+var
+contador: inteiro
+equipe :caracter
+
+Inicio
+
+contador <- 1
+
+escreva("Qual o nome da equipe? ")
+leia(equipe)
+
+enquanto contador <= 5 faca
+
+     Escreval("O numero do participante é ", equipe, " -", contador )
+
+     contador <- contador + 1
+
+fimenquanto
+
+fimalgoritmo
