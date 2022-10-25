@@ -1,0 +1,55 @@
+#Sequência logica pra fabricaçao do bolo.
+
+Colocar ingredientes no balcão.
+pegar 4 ovos e separar.
+pegar uma colher.
+pegar manteiga.
+pegar farinha de trigo.
+pegar açucar.
+pegar leite.
+pegar o liguidificador colocar na pia.
+segurar um ovo por vez e quebrar em cima do liquidificador 4x.
+deixar cair somente o conteudo interno do ovo dentro do liqudificador 4x.
+jogar cacas de ovo no lixo 4x.
+pegar o pacote de chocolate e abrir.
+pegar colher e enfiar no pacote de chocolate 4x.
+Derramar colher 4x dentro do liquidificador.
+Guardar o pacote de chocolate.
+pegar pote de manteiga, abrir.
+colocar colher no pote de manteiga e retirar seu conteudo 2x.
+derramar a colher com manteiga no liquidificador 2x.
+pegar pacote de farinha de trigo, abrir pacote.
+pegar colher e remover conteudo do pacote de trigo 2x.
+derramar colher de trigo no liquidificador 2x.
+pegar pacote de açucar, abrir pacote de açucar.
+pegar colher e tirar conteudo do pacote de açucar 2x.
+derramar colher de açucar no liquidificador 2x.
+pegar leite, abrir leite.
+pegar xicara.
+colocar leite dentro da xicara 1x.
+derramar xicara dentro do liquidificador 1x.
+pegar fermento, abrir.
+colocar fermento dentro do liquificador 1x.
+pegar fio do liquidificador.
+colocar fio do liquidificador na tomada.
+apertar botao de ligar do liquidificador.
+espere por  minutos.
+passado 5 minutos aperte botao para desligar liquidificador.
+pegar forma.
+colocar forma na pia.
+ligar forno.
+colocar 180ºc.
+preaquecer por 40 minutos.
+pegar copo do liquidificador.
+derramar conteudo do liquidificador na forma.
+colocar forma no forno ,se estiver 40 minutos preaquecido, se nao esperar.
+true, forma dentro do forno.
+marcar 35 minutos no despertador.
+se 35 minutos passarem tirar forma do forno, se nao esperar.
+true, tirar bolo.
+se bolo pronto, finalizar programa, se nao continuar.
+
+
+
+
+
